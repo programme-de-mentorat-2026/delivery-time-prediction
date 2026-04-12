@@ -1,7 +1,43 @@
 # delivery-time-prediction
 Uncover insights into factors influencing delivery efficiency, identify areas for optimization, and explore the impact of various variables on the overall customer experience.
 
+## Setup
+
+### Prerequisites
+- Python 3.8 or higher
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd delivery-time-prediction
+   ```
+
+2. Create and activate a virtual environment:
+   ```bash
+   python -m venv .venv
+   .venv\Scripts\activate  # On Windows
+   # source .venv/bin/activate  # On macOS/Linux
+   ```
+
+3. Install the package in development mode:
+   ```bash
+   pip install -e .
+   ```
+
+4. Install development dependencies:
+   ```bash
+   pip install -r requirements-dev.txt
+   ```
+
+### Development
+- Run tests: `pytest`
+- Format code: `black .`
+- Lint code: `ruff check .`
+
 ## Database
+
+The project uses the **amazon_delivery.csv** dataset located in the `database/` folder. This dataset contains delivery order information with the following columns:
 
 The project uses the **amazon_delivery.csv** dataset located in the `database/` folder. This dataset contains delivery order information with the following columns:
 
