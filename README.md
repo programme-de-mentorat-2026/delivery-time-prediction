@@ -39,8 +39,6 @@ Uncover insights into factors influencing delivery efficiency, identify areas fo
 
 The project uses the **amazon_delivery.csv** dataset located in the `database/` folder. This dataset contains delivery order information with the following columns:
 
-The project uses the **amazon_delivery.csv** dataset located in the `database/` folder. This dataset contains delivery order information with the following columns:
-
 | Colonne | Description |
 |---------|-------------|
 | **Order_ID** | Unique identifier for each order. |
