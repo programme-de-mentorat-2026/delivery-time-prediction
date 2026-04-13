@@ -32,7 +32,7 @@ jobs:
     
     - name: Format check with black
       run: |
-        black --check .
+        black --check --target-version py310 .
     
     - name: Run tests
       run: |

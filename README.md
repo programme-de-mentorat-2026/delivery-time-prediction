@@ -35,6 +35,18 @@ Uncover insights into factors influencing delivery efficiency, identify areas fo
 - Format code: `black .`
 - Lint code: `ruff check .`
 
+### Developer quick start
+To install the project and development tools in one step:
+```bash
+pip install -e '.[dev]'
+```
+Then run:
+```bash
+python -m black --target-version py310 .
+python -m ruff check .
+pytest
+```
+
 ## Database
 
 The project uses the **amazon_delivery.csv** dataset located in the `database/` folder. This dataset contains delivery order information with the following columns:
