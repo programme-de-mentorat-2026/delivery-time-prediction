@@ -15,12 +15,12 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    pandas,
-    numpy,
-    scikit-learn,
-    matplotlib,
-    seaborn,
-    scipy
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "scipy"
 ]
 
 [project.optional-dependencies]
