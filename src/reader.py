@@ -1,4 +1,11 @@
 import pandas as pd
+<<<<<<< HEAD
+=======
+import numpy as np
+from sklearn.model_selection import train_test_split
+from scipy import stats
+import os
+>>>>>>> 3ca784fe04713fe47fe12663de6ffa204632b405
 
 class Reader:
     def __init__(self, database_path):
